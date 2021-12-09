@@ -1,7 +1,7 @@
 const max = require('max-api');
 const request = require('request');
 const cheerio = require('cheerio');
-let service_key = 'h7ns18Q0%2BOKN4mlakTp8a6ZLoMXFchIPdZhpIWKG0r6xQgnblNmxfs%2FXwY2JCobmjU%2BX8f8GytTDe1b%2BzOBTzg%3D%3D'; // insert your service_key(Decoding) from data.go.kr
+let service_key = ''; // insert your service_key(Decoding) from data.go.kr
 
 function today(day) {
   let today = new Date();
